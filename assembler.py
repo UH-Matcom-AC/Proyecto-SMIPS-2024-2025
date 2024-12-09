@@ -4,7 +4,7 @@ import sys
 import optparse
 
 symbols = {}
-# commit try
+
 instructions = []
 
 relocations = []
