@@ -413,7 +413,6 @@ def assemble_instructions(inputFile):
 
 
 def print_instructions(instructions, outputdir):
-
     hex_instructions = [("%04x" % inst).zfill(8) for inst in instructions]
     little_endian = [
         inst[6:8] + inst[4:6] + inst[2:4] + inst[0:2] for inst in hex_instructions
